@@ -1,0 +1,16 @@
+{
+  "name": "paint2-seed-files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run start --prefix server",
+    "client": "npm run start --prefix client-new",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
